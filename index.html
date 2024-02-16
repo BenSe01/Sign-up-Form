@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Watch Sign-up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="/assets/swords" href="/assets/swords.png">
+</head>
+<body>
+   <header>
+    <div class="logo"><img id="logo" src="assets/GOT-Logo.png" alt="Game of Thrones Logo"></div>
+    <p>This is not a real Service.
+        All Rights belong to HBO <br>
+        <a target="_blank" href="https://www.reddit.com/r/gameofthrones/comments/wroqk/simple_nights_watch_vows_wallpaper_i_made/">Background Image Source</a>
+        <a target="_blank" href="https://en.m.wikipedia.org/wiki/File:Logo_Game_of_Thrones.png"> Logo Source</a>
+        <a target="_blank" href="https://www.flaticon.com/free-icon/swords_934427?term=sword&page=1&position=17&origin=tag&related_id=934427">Favicon Source</a>
+    </p>
+   </header>
+   <main>
+    <div class="form-container">
+        <form action="">
+            <fieldset>
+                <legend>Welcome to the Night Watch</legend>
+                <ul>
+                    <li>
+                        <label for="first_name">What's your first Name? </label>
+                        <input placeholder="Jon" type="text" name="first_name" id="first_name">
+                    </li>
+                    <li>
+                        <label for="last_name">What's your last Name? </label>
+                        <input placeholder="Snow" required type="text" name="last_name" id="first_name">
+                    </li>
+                    <li>
+                        <label for="age">How old are you? </label>
+                        <input required type="number" min="1">
+                    </li>
+                    <li>
+                        <label for="radiobox">Are you trained in weilding a Sword?</label>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="sword" id="yes radiobox" class="radio">
+                        <label for="no">No</label>
+                        <input checked type="radio" id="no radiobox" name="sword" class="radio">
+                    </li>
+                    <li>
+                        <label for="checkbox">I am ready to take my Oath and become a Brother of the Night Watch</label>
+                        <input required type="checkbox" id="checkbox">
+                    </li>
+                </ul>
+                <div class="button-container"><button type="submit">Take your Oath</button></div>
+            </fieldset>
+        </form>
+    </div>
+   </main>
+   <footer>
+    <p>Made by <a target="_blank" href="https://github.com/BenSe01">BenSe01</a> as Part of <a target="_blank" href="https://www.theodinproject.com">The Odin Project</a> Curriculum</p>
+   </footer>
+
+</body>
+</html>
+
+<!--background source https://www.reddit.com/r/gameofthrones/comments/wroqk/simple_nights_watch_vows_wallpaper_i_made/
+    logo source https://en.m.wikipedia.org/wiki/File:Logo_Game_of_Thrones.png
+all rights belong to HBO -->
